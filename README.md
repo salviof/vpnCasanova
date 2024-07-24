@@ -4,13 +4,13 @@ Projeto Open-VPN Casanova
 
 ## Estrutura de diretórios
 
-### Arquivos ambiente de servidor:
+#### Arquivos ambiente de servidor:
 
 ./dockerFileServer/Dockerfile  -> Arquivo imagem docker <br>
 ./dockerFileServer/arquivos -> Scripts de instalação <br>
 
 
-### Arquivos ambiente cliente
+#### Arquivos ambiente cliente
 
 ./dockerFileClient/Dockerfile -> Arquivo imagem docker <br>
 ./dockerFileClient/arquivos -> Scripts de instalação <br>
@@ -18,7 +18,7 @@ Projeto Open-VPN Casanova
 
 ## Variaveis de ambiente
 
-### Servidor:
+#### Servidor:
 
 VPN_SRV_CHAVE_DE_ACESSO <br>
 VPN_SRV_DOMINIO_ENDPOINT <br>
@@ -26,7 +26,7 @@ VPN_SRV_IPS_AUTORIZADOS (Lista deve ser configurada no OpenVpn) <br>
 VPN_SRV_PORTA_CONEXÃO (Havendo diversas portas para o funcionamento do VPN, nomear especificando a funação exemplo PORTA_CONEXAO, PORTA_FUNÇÃO... ) <br>
 VPN_SRV_IP_PUBLICO<br>
 
-### CLIENTE:
+#### CLIENTE:
 
 VPN_CHAVE_DE_ACESSO (É a chave para obter o arquivo de configuração do openvpn, <br>
 VPN_HOST_SERVIDOR<br>
