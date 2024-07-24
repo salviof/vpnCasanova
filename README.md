@@ -6,14 +6,14 @@ Projeto Open-VPN Casanova
 
 #### Arquivos ambiente de servidor:
 
-./dockerFileServer/Dockerfile  -> Arquivo imagem docker <br>
-./dockerFileServer/arquivos -> Scripts de instalação <br>
+./dockerServer/Dockerfile  -> Arquivo imagem docker <br>
+./dockerServer/arquivos -> Scripts de instalação <br>
 
 
 #### Arquivos ambiente cliente
 
-./dockerFileClient/Dockerfile -> Arquivo imagem docker <br>
-./dockerFileClient/arquivos -> Scripts de instalação <br>
+./dockerClient/Dockerfile -> Arquivo imagem docker <br>
+./dockerClient/arquivos -> Scripts de instalação <br>
 
 
 ## Variaveis de ambiente
