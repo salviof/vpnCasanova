@@ -40,8 +40,8 @@ VPN_REDE_VPN<br>
 1-> O cliente verifica se existe um arquivo de configuração com as variaveis de ambiente enviadas, se existir não faz nada,
 se existir uma configuração com outra configuração, apaga a configuração antiga.
 uma vez que esteja sem o arquivo de configuração, O cliente acessa um serviço web informando: CHAVE_DE_ACESSO,  ID_CLIENTE, e REDE_VPN <br>
-2-> O servidor retorna 200 com o conteúdo do arquivo de configuração do vpn ou retorna 401, com acesso negado.<br>
-3-> No Entrypoint do docker client o cliente salva o o conteúdo recebido e para se conectar com o cliente.<br>
+2-> O servidor retorna 200 com o conteúdo do arquivo de configuração do vpn, enviando um IP fixo válido na vpn, ou retorna 401, com acesso negado.<br>
+3-> O cliente salva o  conteúdo do arquivo de configuração recebido do servidor e se conecta ao serviço de vpn <br>
 4-> O cliente testa a conexão do vpn e caso não esteja conectado gera um erro que impede a execução da imagem.<br>
 
 ## Referência:
